@@ -1,0 +1,31 @@
+{
+  "name": "futoo",
+  "version": "0.0.1",
+  "description": "Functional Toolbox written in TypeScript",
+  "keywords": [
+    "functional",
+    "toolbox",
+    "toolkit",
+    "util",
+    "typescript"
+  ],
+  "main": "index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "npm run lint && tsc",
+    "test": "",
+    "lint": "tslint -p ."
+  },
+  "author": {
+    "name": "Martin Greilinger"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/martingreilinger/futoo.git"
+  },
+  "devDependencies": {
+    "tslint": "5.17.0",
+    "typescript": "3.5.2"
+  }
+}

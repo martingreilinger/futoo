@@ -1,0 +1,15 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "linterOptions": {
+       "exclude": [
+           "node_modules",
+           "*.d.ts"
+       ]
+   },
+    "rules": {
+      "quotemark": [true, "single", "avoid-escape"]
+    }
+}
