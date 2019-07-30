@@ -12,7 +12,8 @@
   "main": "index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "npm run lint && npm t && tsc",
+    "build": "npm run verify && tsc",
+    "verify": "npm run lint && npm t",
     "lint": "tslint -p .",
     "test": "jest"
   },
@@ -24,8 +25,15 @@
     "type": "git",
     "url": "https://github.com/martingreilinger/futoo.git"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint",
+      "pre-push": "npm run verify"
+    }
+  },
   "devDependencies": {
     "@types/jest": "24.0.16",
+    "husky": "3.0.2",
     "jest": "24.8.0",
     "ts-jest": "24.0.2",
     "tslint": "5.17.0",
