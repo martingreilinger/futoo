@@ -9,7 +9,7 @@
     "util",
     "typescript"
   ],
-  "main": "index.js",
+  "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "npm run verify && tsc",
