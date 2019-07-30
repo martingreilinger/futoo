@@ -4,11 +4,10 @@
         "tslint:recommended"
     ],
     "linterOptions": {
-       "exclude": [
-           "node_modules",
-           "*.d.ts"
-       ]
-   },
+        "exclude": [
+            "node_modules"
+        ]
+    },
     "rules": {
       "quotemark": [true, "single", "avoid-escape"]
     }

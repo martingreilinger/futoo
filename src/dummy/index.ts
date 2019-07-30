@@ -1,1 +1,1 @@
-export {test} from './dummy';
+export {testFunction} from './dummy';
