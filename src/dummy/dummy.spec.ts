@@ -1,4 +1,4 @@
-import {testFunction} from './dummy';
+import { testFunction } from './dummy';
 
 describe('dummy spec', () => {
   it('returns the correct string', () => {
