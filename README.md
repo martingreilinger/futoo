@@ -1,7 +1,9 @@
 # futoo
-Functional Toolbox written in TypeScript
+[![Build Status](https://travis-ci.org/martingreilinger/futoo.svg?branch=master)](https://travis-ci.org/martingreilinger/futoo)
 
-## Quickstart 
+Functional Toolbox written in TypeScript.
+
+## Quickstart
 
 ```typescript
  // code sample
